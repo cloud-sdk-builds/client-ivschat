@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-ivschat`](https://www.npmjs.com/package/@aws-sdk/client-ivschat/v/3.583.0).
+[`@aws-sdk/client-ivschat`](https://www.npmjs.com/package/@aws-sdk/client-ivschat/v/3.587.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivschat@3.583.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivschat@3.587.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-57YJ9G9+R6s9f1yZsLIC+z4LjsGs1LczThmJLCQY8G3PZ1a0RODPkm2w+nvjM30z
+sha384-kBc8/kQ48XG4P+4866Cl0jkG70cpKZQ6g4wXygcQ/inmde4Rjwa0Xemuf5rHuP6m
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-ivschat": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivschat@3.583.0/index.min.mjs"
+            "@aws-sdk/client-ivschat": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivschat@3.587.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivschat@3.583.0/index.min.mjs": "sha384-57YJ9G9+R6s9f1yZsLIC+z4LjsGs1LczThmJLCQY8G3PZ1a0RODPkm2w+nvjM30z"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivschat@3.587.0/index.min.mjs": "sha384-kBc8/kQ48XG4P+4866Cl0jkG70cpKZQ6g4wXygcQ/inmde4Rjwa0Xemuf5rHuP6m"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-ivschat": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivschat@3.583.0/index.min.mjs"
+                        "@aws-sdk/client-ivschat": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivschat@3.587.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivschat@3.583.0/index.min.mjs": "sha384-57YJ9G9+R6s9f1yZsLIC+z4LjsGs1LczThmJLCQY8G3PZ1a0RODPkm2w+nvjM30z"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivschat@3.587.0/index.min.mjs": "sha384-kBc8/kQ48XG4P+4866Cl0jkG70cpKZQ6g4wXygcQ/inmde4Rjwa0Xemuf5rHuP6m"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.583.0`)
+* Always pin to a specific version (`@3.587.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-ivschat/blob/refs/tags/3.583.0/LICENSE
+https://github.com/cloud-sdk-builds/client-ivschat/blob/refs/tags/3.587.0/LICENSE
 ```
 
 ---
